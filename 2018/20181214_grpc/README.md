@@ -44,3 +44,8 @@ gradle init --type java-application
 * 執行 `gradle build` 產生 grpc stub
 * 用 gradle 產生 IDE 對應的 metadata (就看你想用哪個了)
 * 複製 Client 與 Server 回來，就能在 IDE 內玩囉
+
+### 注意事項
+
+* 若改了 .proto 檔（在沒 IDE plugin 輔助下) 應該重跑 `gradle build` 產生新的 grpc stub
+* 因為 grpc stub 是在 `gradle build` 時生出來的，若檔案改太多，建議先跑 clean 讓它把舊的都刪掉比較好些。
