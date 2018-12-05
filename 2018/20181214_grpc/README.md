@@ -15,3 +15,11 @@
 ## gRPC 簡易上手篇
 
 在初開始學習用 gRPC 時，看了網官的 `Quick Start :: Java` 但還是不知道如何下手，特別是想要建立 gradle 專案時，看了一堆眼花撩亂的 DSL 想著該由哪開始好呢？這也是為什麼試著提供『又』一篇的簡易上手文件。
+
+在這份素材打算的編寫方式是將修改方式透過 git commit 保留下來，讓讀者能透過 git log (透過 github 的 history 回顧)，我們最先做的事情為：
+
+```
+gradle init --type java-application
+```
+
+建立一個新的 java application 專案 (此為 gradle 4.x 後的新功能，終於對廣大懷念 maven archetype 的使用者最出回應了）。
