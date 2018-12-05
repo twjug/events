@@ -49,3 +49,23 @@ gradle init --type java-application
 
 * 若改了 .proto 檔（在沒 IDE plugin 輔助下) 應該重跑 `gradle build` 產生新的 grpc stub
 * 因為 grpc stub 是在 `gradle build` 時生出來的，若檔案改太多，建議先跑 clean 讓它把舊的都刪掉比較好些。
+
+## 給趕時間的人
+
+請直接 clone 專案，此目錄的程式是能直接使用的。
+
+### Eclipse 
+
+產生 eclipse 專資料
+
+```
+./gradlew  clean build eclipse
+```
+
+### IntelliJ
+
+使用 IntelliJ 開啟
+
+```
+./gradlew clean build openIdea
+```
