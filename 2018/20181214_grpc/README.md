@@ -23,3 +23,15 @@ gradle init --type java-application
 ```
 
 建立一個新的 java application 專案 (此為 gradle 4.x 後的新功能，終於對廣大懷念 maven archetype 的使用者最出回應了）。
+
+### Hello gRPC
+
+我們的目標在示範怎麼建構出一個 gRPC 專案的 `流程`，而非 gRPC 本身該怎麼使用 (這就請活動當天聽講者替我們好好分享囉)，所以我們直接採用 [grpc-java repo 內的 examples 檔案](https://github.com/grpc/grpc-java/blob/v1.16.1/examples)，，我們將使用 `v1.16.1` 版的 release 把 Hello World 專案建出來。
+
+需要的檔案有：
+
+* idl 檔 [src/main/proto/helloworld.proto](https://github.com/grpc/grpc-java/blob/v1.16.1/examples/src/main/proto/helloworld.proto)
+* [examples/helloworld](https://github.com/grpc/grpc-java/tree/v1.16.1/examples/src/main/java/io/grpc/examples/helloworld) 下的 Client 與 Server
+  * [HelloWorldClient.java](https://github.com/grpc/grpc-java/blob/v1.16.1/examples/src/main/java/io/grpc/examples/helloworld/HelloWorldClient.java)
+  * [HelloWorldServer.java](https://github.com/grpc/grpc-java/blob/v1.16.1/examples/src/main/java/io/grpc/examples/helloworld/HelloWorldServer.java)
+
