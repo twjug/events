@@ -43,3 +43,4 @@ gradle init --type java-application
     * 設定 generated code 加入 source set 讓 IDE 能知道它的位置
 * 執行 `gradle build` 產生 grpc stub
 * 用 gradle 產生 IDE 對應的 metadata (就看你想用哪個了)
+* 複製 Client 與 Server 回來，就能在 IDE 內玩囉
