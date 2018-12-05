@@ -35,3 +35,11 @@ gradle init --type java-application
   * [HelloWorldClient.java](https://github.com/grpc/grpc-java/blob/v1.16.1/examples/src/main/java/io/grpc/examples/helloworld/HelloWorldClient.java)
   * [HelloWorldServer.java](https://github.com/grpc/grpc-java/blob/v1.16.1/examples/src/main/java/io/grpc/examples/helloworld/HelloWorldServer.java)
 
+接著得做：
+* 複製 helloworld.proto 回來，並設定好 gradle (因為 grpc stub 還沒生出來，放 Client 與 Server 會缺 class 不能用呦)
+  * gradle
+    * 設定 `com.google.protobuf` 
+    * 設定 `grpc code generator` 參數 
+    * 設定 generated code 加入 source set 讓 IDE 能知道它的位置
+* 執行 `gradle build` 產生 grpc stub
+* 用 gradle 產生 IDE 對應的 metadata (就看你想用哪個了)

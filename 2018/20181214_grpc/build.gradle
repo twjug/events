@@ -6,6 +6,22 @@
  * user guide available at https://docs.gradle.org/4.7/userguide/tutorial_java_projects.html
  */
 
+// buildscript 依 gradle 的規定，得在最開頭
+
+buildscript {
+  repositories {
+    maven {
+      // The google mirror is less flaky than mavenCentral()
+      url "https://maven-central.storage-download.googleapis.com/repos/central/data/"
+    }
+  }
+  dependencies {
+    // ASSUMES GRADLE 2.12 OR HIGHER. Use plugin version 0.7.5 with earlier
+    // gradle versions
+    classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.3'
+  }
+}
+
 plugins {
     // Apply the java plugin to add support for Java
     id 'java'
@@ -15,6 +31,9 @@ plugins {
     id 'idea'
     id 'eclipse'
 }
+
+apply plugin: 'com.google.protobuf'
+
 
 // Define the main class for the application
 mainClassName = 'App'
@@ -32,4 +51,50 @@ repositories {
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
+    maven { // The google mirror is less flaky than mavenCentral()
+        url "https://maven-central.storage-download.googleapis.com/repos/central/data/" }
+}
+
+def grpcVersion = '1.16.1' // CURRENT_GRPC_VERSION
+def nettyTcNativeVersion = '2.0.7.Final'
+def protobufVersion = '3.5.1'
+def protocVersion = '3.5.1-1'
+
+dependencies {
+    compile "com.google.api.grpc:proto-google-common-protos:1.0.0"
+    compile "io.grpc:grpc-alts:${grpcVersion}"
+    compile "io.grpc:grpc-netty-shaded:${grpcVersion}"
+    compile "io.grpc:grpc-protobuf:${grpcVersion}"
+    compile "io.grpc:grpc-stub:${grpcVersion}"
+    compileOnly "javax.annotation:javax.annotation-api:1.2"
+
+    // Used in HelloWorldServerTls
+    compile "io.grpc:grpc-netty:${grpcVersion}"
+    compile "io.netty:netty-tcnative-boringssl-static:${nettyTcNativeVersion}"
+
+    compile "com.google.protobuf:protobuf-java-util:${protobufVersion}"
+
+    testCompile "io.grpc:grpc-testing:${grpcVersion}"
+    testCompile "junit:junit:4.12"
+    testCompile "org.mockito:mockito-core:1.9.5"
+}
+
+protobuf {
+    protoc { artifact = "com.google.protobuf:protoc:${protocVersion}" }
+    plugins {
+        grpc { artifact = "io.grpc:protoc-gen-grpc-java:${grpcVersion}" }
+    }
+    generateProtoTasks {
+        all()*.plugins { grpc {} }
+    }
+}
+
+// Inform IDEs like IntelliJ IDEA, Eclipse or NetBeans about the generated code.
+sourceSets {
+    main {
+        java {
+            srcDirs 'build/generated/source/proto/main/grpc'
+            srcDirs 'build/generated/source/proto/main/java'
+        }
+    }
 }
