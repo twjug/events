@@ -13,6 +13,9 @@
   * 影片 https://www.youtube.com/watch?v=ypRmBDRYP7o
 
 * 2019/11/12 [twjug-lite [5]《ChoCho's Bizarre Adventure of Event-Sourcing》by Eddie Cho](https://twjug.kktix.cc/events/twjug-lite-5)
+    * 投影片: https://speakerdeck.com/chocho/twjug-lite-introduction-to-event-sourcing
+    * 相關內容: https://github.com/EddieChoCho/tech-talks-note/blob/master/2019/ChoChosBizarreAdventureOfEventSourcing.md
+    * 相關程式: https://github.com/EddieChoCho/event-sourcing-account-management
 
 * 2019/10/26 [TWJUG x Oracle Groundbreakers 2019](https://twjug.kktix.cc/events/twjug-oracle-groundbreakers-2019)
 
