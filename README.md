@@ -21,6 +21,12 @@
 * 2019/10/4 [JCConf 2019](https://twjug.kktix.cc/events/jcconf-2019)
 
 * 2019/10/01 [twjug-lite [4]《Deploy your Application from Container to Kubernetes》by 黃健旻 Jian-Min Huang](https://twjug.kktix.cc/events/twjug-lite-4)
+  * 相關內容 https://github.com/Jian-Min-Huang/tech-note/wiki/JCConf-2019
+
+* 2019/04/11 [TWJUG 2019 四月份聚會](https://twjug.kktix.cc/events/twjug201904)
+  * Where is the ghost in the ghost island? Explore by Java and Mongo
+  * Containerize and Evolution of Deployment Type
+    * 相關內容 https://github.com/Jian-Min-Huang/tech-note/wiki/TWJUG-2019-04
 
 ----
 
