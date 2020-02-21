@@ -2,6 +2,13 @@
 
 這個 repostiory 是用來放 TWJUG 活動相關的資料的。
 
+## 2020
+
+* 2020/02/25 [twjug-lite [9] Spring Boot 與 Unit Tests](https://twjug.kktix.cc/events/twjug-lite-9)
+
+* 2020/02/20 [twjug-lite [8] OAuth 工作坊預演場](https://twjug.kktix.cc/events/twjug-lite-8)
+  * 相關資料：https://github.com/qrtt1/twjug-lite-oauth-labs
+
 ## 2019
 
 * 2019/12/20 [twjug-lite [7] 從單體應用的Transaction到分散式系統Consistency/Consensus淺談 by Yang](https://twjug.kktix.cc/events/twjug-lite-7)
