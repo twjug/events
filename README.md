@@ -5,6 +5,8 @@
 ## 2020
 
 * 2020/02/25 [twjug-lite [9] Spring Boot 與 Unit Tests](https://twjug.kktix.cc/events/twjug-lite-9)
+  * 投影片: [Sprint Boot with Unit Test](https://github.com/kucw/demo/blob/master/spring-boot-test-demo/Spring%20Boot%20with%20Unit%20Test.pdf)
+  * 相關程式: https://github.com/kucw/demo/tree/master/spring-boot-test-demo
 
 * 2020/02/20 [twjug-lite [8] OAuth 工作坊預演場](https://twjug.kktix.cc/events/twjug-lite-8)
   * 相關資料：https://github.com/qrtt1/twjug-lite-oauth-labs
