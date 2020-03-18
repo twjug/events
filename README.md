@@ -4,6 +4,11 @@
 
 ## 2020
 
+* 2020/03/17 [twjug-lite [10] 試著重寫一下初學者的程式](https://twjug.kktix.cc/events/twjug-lite-10)
+  * 投影片: https://speakerdeck.com/qrtt1/xie-ge-hao-dong-de-cheng-shi
+  * 影片: https://www.youtube.com/watch?v=KIto1OQxwsY 
+  * 相關文章: [[twjug-lite] 練習寫出好懂的程式](https://medium.com/@qrtt1/twjug-lite-%E7%B7%B4%E7%BF%92%E5%AF%AB%E5%87%BA%E5%A5%BD%E6%87%82%E7%9A%84%E7%A8%8B%E5%BC%8F-6edf86102bd2)
+
 * 2020/02/25 [twjug-lite [9] Spring Boot 與 Unit Tests](https://twjug.kktix.cc/events/twjug-lite-9)
   * 投影片: [Sprint Boot with Unit Test](https://github.com/kucw/demo/blob/master/spring-boot-test-demo/Spring%20Boot%20with%20Unit%20Test.pdf)
   * 相關程式: https://github.com/kucw/demo/tree/master/spring-boot-test-demo
