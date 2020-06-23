@@ -4,6 +4,10 @@
 
 ## 2020
 
+* 2020/06/22 [twjug-lite [13] ktor 閒聊會](https://twjug.kktix.cc/events/twjug-lite-13)
+  * [《如何第一天用 Ktor Client 就撞牆但又撞破的故事》](https://github.com/jiminhsieh/ktor-client-twjug-lite) By Jimin Hsieh
+  * [《Ktor 裡的小精靈: Feature 怎麼工作的》](https://www.notion.so/How-does-ktor-feature-work-314f3471b9bb400ca4053c9a6b719ff3) by qrtt1
+
 * 2020/04/14 [twjug-lite [12] 技術型讀書會的導讀](https://twjug.kktix.cc/events/twjug-lite-12)
   * 相關文章：https://link.medium.com/wbit6h9vx7 
 
