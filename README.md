@@ -12,6 +12,9 @@
   * 相關文章：https://link.medium.com/wbit6h9vx7 
 
 * 2020/03/20 [twjug-lite [11] Full Stack Testing Base on Python, Selenium and Appium](https://twjug.kktix.cc/events/twjug-lite-11)
+  * 投影片: https://hackmd.io/@m_DutsiYQdSG0m1spz8yIQ/SyDTR6wBU#/ 
+  * 相關資料: https://github.com/CommonMarvel/full-stack-testing-starter 
+
 
 * 2020/03/17 [twjug-lite [10] 試著重寫一下初學者的程式](https://twjug.kktix.cc/events/twjug-lite-10)
   * 投影片: https://speakerdeck.com/qrtt1/xie-ge-hao-dong-de-cheng-shi
