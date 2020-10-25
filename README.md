@@ -4,6 +4,10 @@
 
 ## 2020
 
+* 2020/10/21 [TWJUG 2020 十月份聚會](https://twjug.kktix.cc/events/twjug202010)
+  * Porting Spring Cloud Application to Kubernetes
+    * 相關內容 https://github.com/Jian-Min-Huang/tech-note/wiki/TWJUG-2020-10
+
 * 2020/06/22 [twjug-lite [13] ktor 閒聊會](https://twjug.kktix.cc/events/twjug-lite-13)
   * [《如何第一天用 Ktor Client 就撞牆但又撞破的故事》](https://github.com/jiminhsieh/ktor-client-twjug-lite) By Jimin Hsieh
   * [《Ktor 裡的小精靈: Feature 怎麼工作的》](https://www.notion.so/How-does-ktor-feature-work-314f3471b9bb400ca4053c9a6b719ff3) by qrtt1
@@ -14,7 +18,6 @@
 * 2020/03/20 [twjug-lite [11] Full Stack Testing Base on Python, Selenium and Appium](https://twjug.kktix.cc/events/twjug-lite-11)
   * 投影片: https://hackmd.io/@m_DutsiYQdSG0m1spz8yIQ/SyDTR6wBU#/ 
   * 相關資料: https://github.com/CommonMarvel/full-stack-testing-starter 
-
 
 * 2020/03/17 [twjug-lite [10] 試著重寫一下初學者的程式](https://twjug.kktix.cc/events/twjug-lite-10)
   * 投影片: https://speakerdeck.com/qrtt1/xie-ge-hao-dong-de-cheng-shi
